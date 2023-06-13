@@ -1,0 +1,58 @@
+/* Reset Margin */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 400;
+}
+
+/* Body setup */
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: slategrey;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flexbox;
+    align-content: center;
+    grid-template-rows: min-content 1fr;
+    overflow-x: hidden;
+}
+
+div {
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+
+
+}
+
+/* make the images easier to work with */
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+.str-color{
+    color: red;
+}
